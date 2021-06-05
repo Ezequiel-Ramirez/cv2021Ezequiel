@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ezequiel Ramirez</title>
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    
     <!-- icono del title -->
     <link rel="shortcut icon" href="img/icon.png">
     <!-- fontAwesome -->
@@ -14,15 +16,17 @@
 </head>
 <body>
    <!-- main -->
-   <main>
+   <main id="main">
        <nav>
            <a href="#" class="logo">LOGO</a>
+           <!-- bar icon -->
+           <div class="toggle"></div>
            <ul class="menu">
-               <li><a href="#" class="active">Inicio</a></li>
-               <li><a href="#">Sobre mi</a></li>
-               <li><a href="#">Servicio</a></li>
-               <li><a href="#">Portfolio</a></li>
-               <li><a href="#">Contacto</a></li>
+               <li><a href="#main" class="active">Inicio</a></li>
+               <li><a href="#about">Sobre mi</a></li>
+               <li><a href="#services">Servicio</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact-form">Contacto</a></li>
            </ul>
            <!-- lenguaje -->
            <a href="#" class="lang">En</a>
@@ -45,18 +49,183 @@
 
         </div>
    </main>
-   <section class="about">
+   <section class="about" id="about">
        <div class="about-text">
            <h1>Sobre Mi</h1>
            <h2>Freelancing Front-End Developer</h2>
            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et harum magni aut laboriosam repellendus quod sunt! Perferendis perspiciatis at accusamus iusto error voluptates architecto nesciunt minima. Qui perspiciatis ea libero!</p>
            <!-- btn -->
            <button>Más detalles</button>
+        </div>
         <div class="about-model">
             <img src="img/about-model.png" alt="imagen sobre mi">
         </div>
-       </div>
+       
    </section>
    <!-- servicios -->
+   <section id="services">
+   <div class="s-heading">
+       <h1>Servicios</h1>
+       <p>Here is tehe some services which we provide you</p>
+       <!-- services-box-container -->
+       <div class="s-b-container">
+           <!-- box1------ -->
+           <div class="s-box">
+               <!-- services box img -->
+               <div class="s-b-img">
+               <!-- type -->
+               <div class="s-type">Front-End</div>
+               <!-- img -->
+               <img src="img/s1.png" alt="imagen 1">
+               </div>
+               <!-- services - box - text -->
+               <div class="s-b-text">
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia consectetur sequi doloribus quam illo doloremque consequatur quisquam perferendis, iusto voluptatibus natus sint. Vero nihil totam sint consequatur harum modi.</a>
+            </div>
+           </div>
+            <!-- box2------ -->
+           <div class="s-box">
+               <!-- services box img -->
+               <div class="s-b-img">
+               <!-- type -->
+               <div class="s-type">Back-End</div>
+               <!-- img -->
+               <img src="img/s2.png" alt="imagen 1">
+               </div>
+               <!-- services - box - text -->
+               <div class="s-b-text">
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia consectetur sequi doloribus quam illo doloremque consequatur quisquam perferendis, iusto voluptatibus natus sint. Vero nihil totam sint consequatur harum modi.</a>
+            </div>
+           </div>
+            <!-- box3------ -->
+           <div class="s-box">
+               <!-- services box img -->
+               <div class="s-b-img">
+               <!-- type -->
+               <div class="s-type">SEO</div>
+               <!-- img -->
+               <img src="img/s3.jpg" alt="imagen 1">
+               </div>
+               <!-- services - box - text -->
+               <div class="s-b-text">
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo mollitia consectetur sequi doloribus quam illo doloremque consequatur quisquam perferendis, iusto voluptatibus natus sint. Vero nihil totam sint consequatur harum modi.</a>
+            </div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- portfolio -->
+<section id="portfolio">
+    <!-- heading -->
+    <h1 class="p-heading">Porfolio</h1>
+    <!-- portfolio- box container -->
+    <div class="p-b-container">
+        <!-- box 1 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Writting</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w1.jpg" alt="imagen portfolio">
+        </div>
+        <!-- box 2 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Idea</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w2.jpg" alt="imagen portfolio">
+        </div>
+        <!-- box 3 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Music</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w3.jpg" alt="imagen portfolio">
+        </div>
+        <!-- box 4 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Time</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w4.jpg" alt="imagen portfolio">
+        </div>
+        <!-- box 5 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Creative</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w5.jpg" alt="imagen portfolio">
+        </div>
+        <!-- box 6 -->
+        <div class="p-box">
+            <!-- text -->
+            <div class="text-overlay">
+                <h1>Book</h1>
+                <p>Client Project</p>
+            </div>
+            <!-- img -->
+            <img src="img/w6.jpg" alt="imagen portfolio">
+        </div>
+    </div>
+
+</section>
+<!-- contact btn -->
+<section id="contact-btn">
+    <!-- heading -->
+    <h1>If you have any project in your mind?</h1>
+    <!-- btn -->
+    <a href="#contact-form">Contact Me</a>
+
+</section>
+<!-- contact form -->
+<section id="contact-form">
+    <form action="#">
+        <!-- left -->
+        <div class="contact-left">
+            <!-- heading -->
+            <h1 class="c-l-heading">Write Us</h1>
+            <div class="f-name">
+            <!-- name -->
+            <label for="name">Name</label>
+            <!-- input -->
+            <input id="name" type="text" placeholder="Full Name">
+            </div>
+            <div class="f-email">
+            <!-- email -->
+            <label for="email">Email</label>
+            <!-- input -->
+            <input id="email" type="email" placeholder="example@mail.com">
+            </div>
+        </div>
+        <!-- rigth -->
+        <div class="contact-right">
+            <!-- message -->
+            <div class="message">
+                <label for="messaje">Message</label>
+                <textarea name="messaje" id="" cols="20" rows="5" placeholder="Write Message..."></textarea>
+            </div>
+            <!-- submit -->
+            <button>Submit</button>
+        </div>
+
+    </form>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
