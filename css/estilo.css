@@ -87,6 +87,21 @@ nav {
   font-family: Poppins;
 }
 
+/* progress bar */
+.progress-container{
+  position: fixed;
+  width: 100%;
+  height: 8px;
+  top: 0;
+  z-index: 10;
+  background-color: #f4f7ff;
+}
+#progress-bar{
+  height: 100%;
+  width: 0%;
+  background-color: #17d1ac;
+}
+
 .name {
   font-family: Calibri;
   width: 500px;
@@ -596,14 +611,14 @@ nav {
   }
 
   .toggle::before {
-    content: "­­­▓";
-    font-family: fontAwesome;
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 free';
     line-height: 0px;
     margin-left: 5px;
   }
 
   .toggle.active::before {
-    content: "┼";
+    content: "\f00d";
   }
 
   nav {
