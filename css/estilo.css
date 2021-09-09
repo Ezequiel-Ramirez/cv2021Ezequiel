@@ -251,6 +251,8 @@ nav {
   bottom: -2px;
 }
 
+
+
 /* sobre mi */
 .about {
   width: 100%;
@@ -287,6 +289,7 @@ nav {
   border-radius: 20px;
   border: none;
   outline: none;
+  margin-top: 10px;
   background-color: #17d1ac;
 }
 .about .about-text button:hover {
@@ -387,6 +390,7 @@ nav {
   font-size: 18px;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  
 }
 
 #portfolio {
@@ -666,10 +670,11 @@ nav {
 
   #about {
     justify-content: center;
-    padding-top: 0px;
+    padding: 0px;
+    width: 100%;
   }
 
-  .about-text {
+  .about .about-text {
     width: 90%;
   }
 
@@ -832,6 +837,16 @@ nav {
   .s-box {
     width: 100%;
     height: 400px;
+  }
+  .name .button{
+    width: 60%;
+    margin-top: 10px;
+  }
+  .name .button a{
+    font-size: 1.5em;
+  }
+  .sun{
+    left: 50px;
   }
   .social i{
     width: 0.7em;
