@@ -619,6 +619,10 @@ nav {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+#contact-form form .contact-right button:hover{
+  background-color: #17d1ac;
 }
 
 @media (max-width: 1190px) {
@@ -643,10 +647,12 @@ nav {
   .s-b-container {
     flex-wrap: wrap;
   }
-
+  /* .s-b-img img {
+    object-fit: contain;
+  }
   .s-box {
     flex-grow: 1;
-  }
+  } */
 
   .s-b-text {
     text-align: center;
