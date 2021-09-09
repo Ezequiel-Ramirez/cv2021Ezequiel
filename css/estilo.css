@@ -461,12 +461,15 @@ nav {
   padding: 0;
   letter-spacing: 2px;
 }
-.text-overlay p {
+.text-overlay p, .text-overlay i{
   color: #ffffff;
   font-size: 1.2rem;
   margin: 0px;
+  text-align: center;
 }
-
+.linkPortfolio i{
+  margin: 5px;
+}
 #contact-btn {
   width: 100%;
   display: flex;
