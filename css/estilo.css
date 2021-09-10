@@ -705,6 +705,9 @@ footer p, footer a{
   }
 }
 @media (max-width: 900px) {
+  .name .button a{
+    font-size: 1.5em;
+  }
   .toggle {
     display: block;
   }
@@ -838,7 +841,9 @@ footer p, footer a{
     margin-bottom: 20px;
     left: 35%;
   }
-
+  .name .button a{
+    font-size: 1em;
+  }
   .social {
     left: 50px;
     bottom: 10px;
