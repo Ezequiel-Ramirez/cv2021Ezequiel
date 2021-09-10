@@ -643,9 +643,7 @@ footer p, footer a{
   font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 1190px) {
-  #main {
-    background-size: 1150px;
-  }
+  
 
   .name {
     left: 10%;
