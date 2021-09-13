@@ -41,7 +41,7 @@ main {
   background-image: url(../img/cool-background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right bottom;
+  background-position: center;
 }
 
 nav {
@@ -857,6 +857,9 @@ footer p, footer a{
   }
 }
 @media (max-width: 400px) {
+  main{
+    background-position-x: -80px;
+  }
   .s-box {
     width: 100%;
     height: 400px;
