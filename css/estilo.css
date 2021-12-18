@@ -307,6 +307,84 @@ nav {
   color: #ffffff;
   transition: all ease 0.3s;
 }
+/* services */
+.clients {
+  padding-bottom:  50px;
+}
+
+.section-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+.section-txt{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;                 
+}
+.carousel {
+  max-width: 14440px;
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: #070707;
+}
+
+.carousel::before,
+.carousel::after {
+  content: "";
+  width: 200px;
+  height: 100%;
+  position: absolute;
+}
+
+.carousel::before {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0) 0,
+    #fff 100%
+  );
+  z-index: 1;
+}
+
+.carousel::after {
+  background-image: linear-gradient(
+    to left,
+    #fff 0,
+    rgba(255, 255, 255, 0) 100%
+  );
+  right: 0;
+}
+
+.carousel .client-banners {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: slide 20s linear infinite;
+}
+
+.client-banners img {
+  max-height: 100%;
+  margin: 0 50px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
 
 #services {
   width: 100%;
@@ -830,7 +908,17 @@ footer p, footer a{
     font-size: 1.2rem;
     margin: 0 10%;
   }
-
+  .carousel::before,
+  .carousel::after {
+    width: 100px;
+  }
+  .section-txt{
+    font-size: 1rem;    
+    padding: 20px;  
+  }
+  .carousel{
+    height: 100px;
+  }
   .name {
     width: 60%;
   }
